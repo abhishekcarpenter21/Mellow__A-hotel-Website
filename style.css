@@ -1,0 +1,500 @@
+/* hed start*/
+.headmainboc{
+    background-color:  #dddbdb;
+}
+.headinghead {
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px;
+    justify-content: space-between;
+    font-family: "Sora", sans-serif;
+    margin-left: 0%;
+}
+
+.headinghead h6 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.headmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 10px;
+   
+    
+}
+.icons{
+    margin-left: 0;
+
+}
+#icon:hover{
+    color: #D16806;
+    
+}
+/* Mobile Responsive */
+@media (max-width: 576px) {
+    .headinghead {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .icons {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+/* head end */
+
+/* 9th box css */
+
+ .position-relative {
+    position: relative;
+}
+
+/* IMAGE */
+#imgnine {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    height: 500px;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+/* LEFT TEXT */
+.contentnine {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    font-family: "Cormorant Upright", serif;
+    font-size: 65px;
+    z-index: 3;
+}
+
+.contentnine h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* RIGHT WHITE FORM */
+.availability-card {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 350px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.15);
+    z-index: 4;
+}
+
+
+
+@media (max-width: 992px) {
+    .availability-card {
+        width: 300px;
+    }
+
+    .contentnine {
+        font-size: 45px;
+        left: 8%;
+    }
+}
+
+@media (max-width: 768px) {
+   
+    #imgnine {
+        height: 350px;
+    }
+
+    
+    .contentnine {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .availability-card {
+        position: relative;
+        top: auto;
+        right: auto;
+        transform: none;
+        width: 100%;
+        margin-top: -60px;
+    }
+}
+
+@media (max-width: 576px) {
+    #imgnine {
+        height: 280px;
+    }
+
+    .contentnine {
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+
+
+/* 9th box css  */
+.headings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: large;
+}
+#head:hover{
+    color: #D16806;
+    transition: .5s;
+}
+#heads{
+    color: #D16806;
+}  
+
+/* 8th box css */
+.head8{
+    text-align: center;
+    font-family:  "Cormorant Upright", serif;
+    font-size: calc(1.525rem + 3.3vw);
+}
+.eightsecond{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+/* 8th box css end */
+
+
+/* seventh box css start */
+.review{
+    text-align: center;
+    margin: 50px;
+}
+.review h1{
+    color: #D16806;
+    font-family: "Cormorant Upright", serif;
+}
+.review p{
+    font-family: "Sora", sans-serif;
+}
+
+
+
+
+/* seveth box css end */
+
+/* sixth box css start */
+
+.headingsix{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 5ric;
+}
+.headingsix h4{
+    border: solid transparent;
+    padding: 20px;
+    background-color: #777F81;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+.sixfirst{
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.sixfirst .overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: opacity.5s linear;
+    background-color: rgba(0,0, 0, .5);
+    opacity: 0;
+
+}
+.sixfirst:hover .overlay{
+    opacity: 1;
+
+}
+.sixfirst img{
+    width:100%;
+    height: 100%;
+    display: block;
+    transition: transform.5s linear;
+}
+.sixfirst:hover img{
+    transform: scale(1.2);
+
+}
+.contentsix{
+    position: absolute;
+    height: 0%;
+    bottom: 30px;
+    left: 50px;
+    opacity: 0;
+    transition: height .5s linear,opacity .5s linear;
+    color:white;
+    font-family:  "Cormorant Upright", serif;
+}
+
+.sixfirst:hover .contentsix{
+    height: 80%;
+    opacity: 1;
+}
+
+
+/*  sisxth box css end*/
+
+
+/* fifth box css start */
+.fifthlast{
+    margin-top: 100px;
+}
+.fifthhead{
+    text-align: center;
+    justify-content: center;
+}
+
+#carouselExample{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+#carouselExample img{
+    border-radius: 20px;
+}
+
+.fifthhead h1{
+    font-size: 56px;
+    font-family: "Cormorant Upright", serif;
+}
+
+
+
+/* fifth box css end */
+
+
+
+/* forth last boc css start */
+.fourthlast{
+    margin: 20px;
+    
+}
+.heading4{
+    font-size: 56px;
+    text-align: center;
+    font-family: "Cormorant Upright", serif;
+}
+.fa-solid{
+    color:#ECB27B;
+}
+.first4{
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 48px;
+    border-color: #F9F6F3;
+    margin: 10px;
+    text-align: center;
+    
+
+
+
+
+}
+.first4:hover{
+    border-color: #D16806;
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+
+/* forth last box css end */
+
+
+
+/* third last box css start */
+
+#button3{
+    border: solid transparent;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #353535;
+}
+.headingbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+.firstbox3{
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 20px;
+    position: relative;
+ 
+     
+}
+.firstbox3 img{
+    width:100%;
+    height: 100%;
+    display: block;
+    transition: transform.5s linear;
+ 
+}
+.firstbox3:hover img{
+    transform: scale(1.2);
+}
+
+.firstbox3 .overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: opacity.5s linear;
+    background-color: rgba(255, 255, 255, .5);
+    opacity: 0;
+}
+.content{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    
+}
+#hotel{
+    color:#353535;
+    border: 1px solid transparent;
+}
+.content p{
+    font-family: "Cormorant Upright", serif;
+    font-size: 30px
+}
+.content p:hover{
+    transition: 0.2s;
+    color: #D16806;
+}
+
+
+
+
+
+/* third last box css end */
+
+/* second last box css start */
+.secondlast{
+    margin-top: 100px;
+}
+#secondbox2{
+    position: relative;
+    display: block;
+
+    
+}
+#secondbox2 h1{
+    font-family:"Cormorant Upright", serif;
+}
+#button2{
+    position: absolute;
+    bottom: 0%;
+}
+#secondbox i{
+    color: #D16806;
+}
+.icons{
+    color: #ECB27B;
+    font-size: large;
+    
+}
+#icon:hover{
+    color: #D16806;
+    
+    
+}
+#icon{
+    margin: 5px;
+}
+
+/* second last box css end */
+
+
+
+
+
+/* fotter css start */
+.footer{
+    color: #353535;
+    
+}
+.fs-1{
+    color: #1A1A1A;
+    font-family:"Cormorant Upright", serif;
+
+
+}
+#list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#hov:hover{
+    color: #D16806;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+}
+#button2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* footer css end */
