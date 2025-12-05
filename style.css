@@ -51,7 +51,7 @@
 
 /* head end */
 
-/* 9th box css */
+/* 9th box css start */
 
  .position-relative {
     position: relative;
@@ -157,6 +157,7 @@
 
     .contentnine {
         font-size: 28px;
+        top:25%;
     }
 }
 
@@ -166,7 +167,7 @@
 
 
 
-/* 9th box css  */
+/* 9th box css end */
 .headings{
     display: flex;
     flex-wrap: wrap;
@@ -497,4 +498,5 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
 /* footer css end */
